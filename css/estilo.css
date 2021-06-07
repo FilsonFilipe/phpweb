@@ -1,0 +1,294 @@
+
+/* 
+    Created on : 26/jan/2021, 14:56:23
+    Author     : BITC
+*/
+/* =============================================================================
+  Estilo da Pagina do Login e Cadastro(login.php e Cadastro.php)
+   ========================================================================== */
+
+.header-login-cadastro{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    max-height: 50px;
+    background-color: #rgba;
+    margin-bottom: 40px;
+    box-shadow:0 0.5rem 1rem rgba(0,0,0,.175)!important
+}
+.logo{
+    width: 100%;
+    color: #fff;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17pt;
+    font-weight: bold;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .9;
+    font-family: serif;
+    font-size: 14pt;
+}
+.form-login{
+    width: 100%;
+    padding: 30px 20px;
+}
+.btn-principal{
+    background-color: #5bce;
+    color: #fff;
+    transition: all 0.7s;
+}
+.btn-principal:hover{
+    background-color: #ee005d;
+    color: #fff;
+    transition: all 0.7s;
+}
+main{
+    width: 100%;
+}
+.messagens{
+    height: 50px;
+    max-height: 50px;
+   padding: 30px 0;
+}
+/* =============================================================================
+  Estilo da Pagina  dos Crupos (Index.php)
+   ========================================================================== */
+.header-principal{
+    width: 100%;
+    height: 60px;
+    max-height: 60px;
+    overflow: hidden;
+    background: rgb(12,4,5);
+    margin-bottom: 4px;
+}
+a.menu-link{
+    text-decoration: none;
+    font-size: 20pt;
+    color: #fff;
+    transition: all 0.7s;
+}
+a.menu-link:hover,a.activo{
+    color: #a1a1a1;
+}
+.img-capa{
+    width: 40px;
+    height: 40px;
+}
+a.btnmias{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 17pt;
+    color: #fff;
+    background-color: #ff006e;
+}
+
+
+
+.titlo{
+    color: #fff;
+}
+.form-chat{
+    width: 100%;
+    background-color: #fff;
+}
+.hide{
+    visibility: hidden;
+    display: none;
+}
+.box-body{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    clear: both;
+    
+}
+.box-bod{
+     width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    clear: both;
+}
+.box-bod .img-chat{
+    width: 40px;
+    min-height:40px;
+    padding: 15 20px;
+    border-radius: 50%;
+    float: right;
+    
+}
+.box-bod h6{
+    margin-right: 5px;
+    color: #777;
+    font-weight: 300;
+    float: right;
+    text-align: right;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+.box-bod p{
+    clear: both;
+    width: 70%;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #777;
+    display: inline-block;
+    padding: 10px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 4px;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    
+}
+.box-body .img-chat{
+    width: 40px;
+    min-height:40px;
+    padding: 15 20px;
+    border-radius: 50%;
+    float: left;
+    
+}
+.box-body h6{
+    margin-left: 5px;
+    color: #777;
+    font-weight: 300;
+    float: left;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+.box-body p{
+    clear: both;
+    width: 70%;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    color: #444;
+    display: inline-block;
+    padding: 10px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 4px;
+    
+}
+
+
+
+
+
+
+
+
+
+ div#publicar{
+                width:665px;
+                height:170px;
+                display: block;
+                margin: auto;
+                border: none;
+                border-radius: 5px;
+               background-color: #fff;
+                box-shadow: 0 0 6px #a1a1a1;
+                margin-top: 30px;
+                
+            }
+            div#publicar textarea{
+                width: 635px;
+                height: 100px;
+                display: block;
+                margin: auto;
+                border-radius: 5px;
+                padding-left: 5px;
+                padding-top: 5px;
+                border-width: 1px;
+                border-color: #a1a1a1;
+                font-family: cambria;
+                font-size: 20px;
+            }
+            div#publicar img{
+                margin-top: 0px;
+                margin-left: 10px;
+                width: 30px;
+                cursor: pointer;
+            }
+            div#publicar input[type="submit"]{
+                cursor:pointer;
+outline:0;
+border:1px solid rgba(255,255,255,0.4);	
+background-color:blue;	
+width:100px;
+border-radius:3px;
+display:block;
+padding: 10px;
+float: right;
+margin-right: 15px;
+font-size:18px;
+color:white;
+-webkit-transition-duration:0.25s;
+        transition-duration:0.25s;
+font-weight:300;
+            }
+            div#publicar input[type="submit"]:hover{
+                background-color: #ff006e
+            }
+             .pub{
+                width:665px;
+                min-height:70px;
+                max-height: 170px;
+                display: block;
+                margin: auto;
+                border: none;
+                border-radius: 5px;
+               background-color: #fff;
+                box-shadow: 0 0 6px #a1a1a1;
+                margin-top: 30px;
+                
+            }
+          .pub a{
+                text-decoration: none;
+                font-size: 20px;
+        color:#0066ff;
+                
+            }
+           .pub a:hover{
+        color:#0066ff;
+                
+            }
+              .pub p{
+       margin-left: 10px;
+       margin-top: 10px;
+       content: #666;
+       text-align: center;
+       font-size: 14px;
+       font-family: cambria;
+            }
+            .pub span{
+      display: block;
+      margin: auto;
+      width: 635px;
+      margin-top: 10px;
+      font-family: cambria;
+      font-size: 22px;
+      color: #000000;
+   
+            }
+             .pub img{
+      display: block;
+      margin: auto;
+      width: 100%;
+      margin-top: 10px;
+      border-button-left-radius:5px;
+      border-bottom-right-radius: 5px;
+   
+            }
